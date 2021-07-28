@@ -4563,6 +4563,20 @@ textarea.form-control-lg {
   padding-left: 0;
   list-style: none;
 }
+.pagechange a {
+  color: black;
+  margin: auto;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagechange a.active {
+  background-color: #286650;
+  color: white;
+}
+
+.pagechange a:hover:not(.active) {background-color: #ddd;}
 
 .page-link {
   position: relative;
@@ -10871,4 +10885,19 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+.leftcol{
+  float: left;
+  width: 75%;
+}
+
+.leftimg{
+  height: 300px;
+  width: 450px;
+}
+
+.leftdes{
+  text-align: justify;
+  border-top: dashed rgba(0,0,0,0.125);
 }
